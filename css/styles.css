@@ -112,14 +112,17 @@ p {
   height: 16px;
   margin-right: 10px;
 }
-.contacts-svg-container:hover a {
+.menu-contacts-link:hover {
   color: var(--text-blue);
   text-decoration: underline;
 }
-.contacts-svg-container:hover svg {
+.menu-contacts-link:hover .phone-svg {
   fill: var(--text-blue);
 }
-.menu-list a {
+.menu-contacts-link:hover .email-svg {
+  fill: var(--text-blue);
+}
+.nav-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -128,7 +131,7 @@ p {
   letter-spacing: 0.02em;
 }
 
-.menu-contacts a {
+.menu-contacts-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -140,7 +143,6 @@ p {
 .menu-contacts {
   display: flex;
 }
-
 /*======================================HERO section======================================*/
 
 .hero {
@@ -385,7 +387,7 @@ p {
   border: 1px solid #afb1b8;
 }
 .customers-item-container:hover li {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--text-blue);
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -472,7 +474,7 @@ p {
   margin-right: 10px;
 }
 .footer-social-item:hover {
-  background-color: #2196f3;
+  background-color: var(--text-blue);
 }
 .footer-social-title {
   font-family: Roboto;
