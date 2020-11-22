@@ -119,14 +119,10 @@ p {
 .action-window {
   color: var(--text-blue);
 }
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link:focus:after {
   transform: scaleX(1);
 }
-.nav-link:visited::after,
-.nav-link:focus::after {
-  transform: scaleX(1);
-}
-
 .menu-item {
   padding-top: 22px;
   padding-bottom: 22px;
