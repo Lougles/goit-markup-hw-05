@@ -122,11 +122,13 @@ p {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .phone-svg {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-contacts-link:hover {
   color: var(--text-blue);
@@ -154,6 +156,7 @@ p {
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: var(--text-p);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-contacts {
   display: flex;
